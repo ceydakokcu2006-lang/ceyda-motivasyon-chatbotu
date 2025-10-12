@@ -20,4 +20,4 @@ Temel RAG akışı başarılı bir şekilde kurulmuştur. Chatbot, yüklenen mot
 
 ## Web Linki (Deploy Link)
 **(UYARI: Bu kısım, projenizin web arayüzüne deploy edilmesi tamamlandıktan sonra güncellenecektir.)**
-Web Uygulaması Linki: [Link Henüz Hazır Değil]
+Web Uygulaması Linki: https://huggingface.co/spaces/ceyda18/motivasyon-chatbotu-ceyda
