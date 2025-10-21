@@ -21,3 +21,27 @@ Temel RAG akışı başarılı bir şekilde kurulmuştur. Chatbot, yüklenen mot
 ## Web Linki (Deploy Link)
 **(UYARI: Bu kısım, projenizin web arayüzüne deploy edilmesi tamamlandıktan sonra güncellenecektir.)**
 Web Uygulaması Linki: https://huggingface.co/spaces/ceyda18/motivasyon-chatbotu-ceyda
+---
+
+### 3 - Kodunuzun Çalışma Kılavuzu
+
+Bu bölüm, projenin yerel geliştirme ortamında nasıl çalıştırılacağını açıklar:
+
+1.  **Gerekli Kütüphanelerin Kurulumu (Virtual Environment):**
+    Aşağıdaki komutlarla sanal ortam oluşturulur ve `requirements.txt` dosyası ile tüm bağımlılıklar kurulur:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # Linux/macOS
+    .\venv\Scripts\activate  # Windows
+    pip install -r requirements.txt
+    ```
+2.  **API Anahtarının Tanımlanması:**
+    Google Cloud Console'dan alınan API anahtarının (eğer kullanılıyorsa) ortam değişkeni olarak tanımlanması gerekir:
+    ```bash
+    export GOOGLE_API_KEY="SİZİN_ANAHTARINIZ"
+    ```
+3.  **Uygulamanın Başlatılması:**
+    Streamlit uygulaması aşağıdaki komutla başlatılır:
+    ```bash
+    streamlit run app.py
+    ```
