@@ -45,3 +45,18 @@ Bu bölüm, projenin yerel geliştirme ortamında nasıl çalıştırılacağın
     ```bash
     streamlit run app.py
     ```
+                                                                                                                                                  
+### 5 - Web Arayüzü & Product Kılavuzu
+
+**Çalışma Akışı ve Test Senaryoları:**
+
+Uygulama, Hugging Face deploy linki üzerinden açıldığında, kullanıcı aşağıdaki adımları izler:
+
+1.  Arayüzde bulunan sohbet kutusuna motivasyon metinlerinin içeriğiyle ilgili bir soru sorar.
+2.  RAG (Retrieval Augmented Generation) modeli, soruları metinler içinden en alakalı kaynaklarla (kaynak döküman parçaları) birleştirerek anlamlı ve ilgili bir cevap üretir.
+
+**Örnek Test Soruları:**
+* "Başarıya ulaşmak için hangi duygusal kabuller gereklidir?"
+* "Kendi kendine şüphe ve suçluluk temaları nasıl ele alınır?"
+
+                                                                                                                                                  
